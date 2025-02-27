@@ -1,0 +1,11 @@
+.header {
+    background-color: blue;
+    height: 10vh;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
