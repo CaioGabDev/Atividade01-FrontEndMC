@@ -4,7 +4,7 @@ import Card from "../components/Card"
 import Footer from "../components/Footer"
 
 export default function Home() {
- return (
+return (
     <div className={styles.container}>
         <Header />
     <main className={styles.main}>
@@ -20,6 +20,6 @@ export default function Home() {
         </aside>
         </main>
         <Footer />
-</div>
- )
+    </div>
+    )
 }

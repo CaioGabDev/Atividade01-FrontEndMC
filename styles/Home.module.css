@@ -1,12 +1,13 @@
 .container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .main {
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 80%;
 }
 
 .left {
@@ -30,3 +31,33 @@
     object-fit: contain;
 }
 
+@media (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+}
+    .left {
+        width: 100%;    
+}
+    .aside {
+        width: 87%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+}
+    .left {
+        width: 100%;
+}
+    .aside {
+        width: 83.7%;
+    }
+    .woow img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

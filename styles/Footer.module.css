@@ -1,9 +1,10 @@
 .footer {
     background-color: blue;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 300%;
     color: white;
+    margin-top: 2%;
 }
