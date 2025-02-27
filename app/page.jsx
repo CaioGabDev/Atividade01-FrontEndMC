@@ -9,9 +9,9 @@ return (
         <Header />
     <main className={styles.main}>
     <div className={styles.left}>
-        <Card />
-        <Card />
-        <Card />
+        <Card title={"Card 1"}/>
+        <Card title={"Card 2"}/>
+        <Card title={"Card 3"}/>
         </div>
         <aside className={styles.aside}>
             <div className={styles.woow}>
